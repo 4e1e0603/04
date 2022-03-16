@@ -16,8 +16,9 @@ In the *Stage 2* you will learn how to solve general and practical problems with
 
 Choode your path:
 
-1. Python for data science.
+1. Python for data analysis.
 2. Python for automated testing.
+3. Python for scientific programming
 
 ## Setup
 
