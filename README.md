@@ -4,6 +4,29 @@ The introductory course, examples, and exercises in Python programming language.
 
 ## Overview
 
+### Stage 1
+
+In the *Stage 1* you will not only learn the basics of Python programming language, but also how to setup your development environment, how to use the command line interface and how to use another services as `GitHub` together with *Git* tool. Your knowledge after this stage will be shallow but you will be able to solve some basic and practical problems.
+
+### Stage 2
+
+In the *Stage 2* you will learn how to solve general and practical problems with Python.
+
+### Stage 3
+
+Choode your path:
+
+1. Python for data science.
+2. Python for automated testing.
+
+## Setup
+
+- Installation and usage of command line interface.
+- Installation of Python (v3) interpeter.
+- Overview of Github service and creation of an account.
+- Installation of Git and basic commands.
+- Your first Python program ("hello world").
+
 ## Data types and data structures
 
 - Number (int, float, decimal, fraction)
