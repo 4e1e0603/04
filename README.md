@@ -105,4 +105,6 @@ Asynchronous (non-blocking) programming.
 ## Testing
 
 - Unit tests with `pytest`
+- `assert`, `fixture`, `test-case`
+- https://docs.pytest.org/en/6.2.x/fixture.html
 
