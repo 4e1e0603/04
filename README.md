@@ -37,6 +37,17 @@ Choode your path:
 - Array, Matrix
 - Comprehension (list, dict)
 
+## Type annotations
+
+- Dynamic vs static typing
+- Type hints and static analysis
+- MyPy and Pylance and 
+
+## Code formatting
+
+- Indentation
+- Using `black`!
+
 ## Functions
 
 - What is a function (builtin vs custom).
@@ -78,4 +89,11 @@ https://www.programiz.com/python-programming/closure
 
 ## Iterators and Generators
 
-## Reflection
+## Metaprogramming
+
+- Reflection
+
+## Testing
+
+- Unit tests with `pytest`
+
