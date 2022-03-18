@@ -79,7 +79,7 @@ Choode your path:
   - `__init__`, `__new__`, `__dict__`
   - `[]`, ``
 - properties, abstract, static and class methods
-- dataclasses https://docs.python.org/3/library/dataclasses.html
+- dataclasses https://docs.python.org/3/library/dataclasses.html; https://realpython.com/python-data-classes/
 
 ### Methods
 
