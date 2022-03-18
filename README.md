@@ -63,6 +63,7 @@ Choode your path:
 - single vs multiple inheritance
 - special (magic) methods and operators (`__init__`, `__new__`, `__dict__`)
 - properties, abstract, static and class methods
+- dataclasses https://docs.python.org/3/library/dataclasses.html
 
 ### Methods
 
