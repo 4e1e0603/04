@@ -80,6 +80,7 @@ Choode your path:
   - `[]`, ``
 - properties, abstract, static and class methods
 - dataclasses https://docs.python.org/3/library/dataclasses.html; https://realpython.com/python-data-classes/
+- `__slots__`
 
 ### Methods
 
