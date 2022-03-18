@@ -1,5 +1,7 @@
 # course-python
 
+__Programming in Python from zero to hero.__
+
 The introductory course, examples, and exercises in Python programming language. Originally written for personal needs  but may be useful for other people.
 
 ## Overview
@@ -18,7 +20,7 @@ Choode your path:
 
 1. Python for data analysis.
 2. Python for automated testing.
-3. Python for scientific programming
+3. Python for scientific programming.
 
 ## Setup
 
