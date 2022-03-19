@@ -26,7 +26,7 @@ Choode your path:
 
 - Installation and usage of command line interface.
 - Installation of Python (v3) interpeter.
-- Overview of Github service and creation of an account.
+- Overview of GitHub service and creation of an account (GitHub Web and CLI).
 - Installation of Git and basic commands.
 - Your first Python program ("hello world").
 
