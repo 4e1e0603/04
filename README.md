@@ -109,6 +109,14 @@ How to work with date and time.
 
 - `__iter__`, `__next__`, `yield`, `yield from`
 
+## Jupyter and Notebooks
+
+How to work with interactive notebooks.
+- Using Jupyter and JupyterLab web interface.
+- Using Visual Studio Code Editor interface.
+- Convert script to netobook and vice versa.
+- Manage code and notes in notebook and best practices. 
+
 ## Async/Await
 
 Asynchronous (non-blocking) programming.
