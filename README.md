@@ -64,7 +64,6 @@ Choode your path:
 - closure, variable scope
 - higher order functions and functional programming
 
-
 ## Modules & Packages
 
 - module definition
@@ -87,6 +86,20 @@ Choode your path:
 ### Methods
 
 ### Properties
+
+## Exceptions
+
+Error handling and exceptions.
+
+## File IO
+
+- How to read and write to/from file.
+- Using `pathlib`
+-  `with` statement and cotext manager (`with open(...) as _`)
+
+## Calendar, Date and Time
+
+How to work with date and time.
 
 ## Pattern Matching 
 
