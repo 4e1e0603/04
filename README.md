@@ -110,3 +110,7 @@ Asynchronous (non-blocking) programming.
 - `assert`, `fixture`, `test-case`
 - https://docs.pytest.org/en/6.2.x/fixture.html
 
+## Resources
+
+- https://github.com/groundf/python-cheatsheet
+
