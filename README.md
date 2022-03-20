@@ -140,6 +140,8 @@ Asynchronous (non-blocking) programming.
 - Unit tests with `pytest`
 - `assert`, `fixture`, `test-case`
 - https://docs.pytest.org/en/6.2.x/fixture.html
+- `pytest.mark`
+- `pytest.parametrize`
 
 ## Resources
 
