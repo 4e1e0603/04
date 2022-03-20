@@ -78,7 +78,7 @@ Choode your path:
 
 ## Classes & Methods
 
-- inheritance & abstract classes
+- abstract classes & inheritance
 - single vs multiple inheritance
 - special (magic) methods and operators 
   - `__init__`, `__new__`, `__dict__`
@@ -86,6 +86,7 @@ Choode your path:
 - properties, abstract, static and class methods
 - dataclasses https://docs.python.org/3/library/dataclasses.html; https://realpython.com/python-data-classes/
 - `__slots__`
+- protocols, nominal vs structurel subtyping
 
 ### Methods
 
