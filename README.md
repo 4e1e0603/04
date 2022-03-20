@@ -98,7 +98,7 @@ Error handling and exceptions.
 
 ## File IO
 
-- How to read and write to/from file.
+- How to read and write to/from file, synchronous (blocking) API.
 - Using `pathlib`
 -  `with` statement and cotext manager (`with open(...) as _`)
 
