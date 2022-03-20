@@ -34,10 +34,14 @@ Choode your path:
 
 - Number (int, float, decimal, fraction)
 - String
+
+### Containters
+
 - Sequence: List, Tuple, Set
 - Mapping: Dictionary
 - Array, Matrix
 - Comprehension (list, dict) and slicing
+- sorting: https://docs.python.org/3/howto/sorting.html
 
 ## Type annotations
 
