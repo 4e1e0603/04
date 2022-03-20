@@ -105,8 +105,6 @@ How to work with date and time.
 - `date`, `time`, `datetime`, `timedelta` classes
 - `time.min`, `time.max` properties
 - `datetime.combine(datetime.now(), time.min)`
-- https://medium.com/@jorlugaqui/how-to-get-the-latest-earliest-moment-from-a-day-in-python-aa8999bea945
-- https://stackoverflow.com/questions/36731949/2359-vs-0000-as-start-end-time
 
 ## Pattern Matching 
 
@@ -141,4 +139,7 @@ Asynchronous (non-blocking) programming.
 ## Resources
 
 - https://github.com/groundf/python-cheatsheet
+- https://pythontic.com/
+- https://medium.com/@jorlugaqui/how-to-get-the-latest-earliest-moment-from-a-day-in-python-aa8999bea945
+- https://stackoverflow.com/questions/36731949/2359-vs-0000-as-start-end-time
 
