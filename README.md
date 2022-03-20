@@ -101,6 +101,13 @@ Error handling and exceptions.
 
 How to work with date and time.
 
+- `date` module
+- `date`, `time`, `datetime`, `timedelta` classes
+- `time.min`, `time.max` properties
+- `datetime.combine(datetime.now(), time.min)`
+- https://medium.com/@jorlugaqui/how-to-get-the-latest-earliest-moment-from-a-day-in-python-aa8999bea945
+- https://stackoverflow.com/questions/36731949/2359-vs-0000-as-start-end-time
+
 ## Pattern Matching 
 
 - https://peps.python.org/pep-0636/
