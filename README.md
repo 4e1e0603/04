@@ -143,6 +143,16 @@ Asynchronous (non-blocking) programming.
 - `pytest.mark`
 - `pytest.parametrize`
 
+## Style guide
+
+prefer 
+
+    week_start: date
+
+over 
+
+    start_of_week: date 
+
 ## Resources
 
 - https://github.com/groundf/python-cheatsheet
