@@ -1,4 +1,4 @@
-# course-python
+# 𝖈𝖔𝖚𝖗𝖘𝖊-𝖕𝖞𝖙𝖍𝖔𝖓
 
 __Programming in Python from zero to hero.__
 
