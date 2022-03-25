@@ -100,7 +100,12 @@ Error handling and exceptions.
 
 - How to read and write to/from file, synchronous (blocking) API.
 - Using `pathlib`
--  `with` statement and cotext manager (`with open(...) as _`)
+-  `with` statement; using cotext manager (`with open(...) as _`)
+
+## Context manager
+
+- Writing `__enter__`,` __exit__` for your class.
+- https://peps.python.org/pep-0343/
 
 ## Calendar, Date and Time
 
