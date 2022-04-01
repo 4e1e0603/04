@@ -14,7 +14,7 @@
 
 https://github.com/google/yapf
 https://packaging.python.org/guides/single-sourcing-package-version/
-	
+
 https://www.geeksforgeeks.org/transpose-matrix-single-line-python/
 	#The list of lists
 	list_of_lists = [range(4), range(7)]
@@ -113,20 +113,20 @@ Přidáme do `__all__` neexistující symbol, který zamezí používání *wild
 
 	__all__ = ('DO_NOT_WILD_IMPORT')
 
-##### Odkazy 
+##### Odkazy
 
 - [http://xion.io/post/code/python-all-wild-imports.html](http://xion.io/post/code/python-all-wild-imports.html)
 
 
-Poznámka: Pokud chcete zakázat 
+Poznámka: Pokud chcete zakázat
 
 Possible to use more than one argument on __getitem__?
 
 
-#### Preferujte import celého modulu namísto jednotlivých tříd. 
+#### Preferujte import celého modulu namísto jednotlivých tříd.
 
-##### Důvod 
-	
+##### Důvod
+
 protože ty jsou součástí modulu do kterého jsme importovali!
 
 NE
@@ -135,7 +135,7 @@ NE
 ANO
 
 	import module
-	import module as md # Pokud chceme např. zkrátit název. 
+	import module as md # Pokud chceme např. zkrátit název.
 
 
 ## timeit
@@ -171,7 +171,7 @@ class Point:
 Nepoužívejte volání magických metod ani uvnitř samotné třídy, dokud to není opravdu třeba.
 
 Namísto obj.__str__(), obj.__len__(), obj.__repr__(), použijeme vestavěné funkce:
-	
+
 ```python
 str(obj)
 len(obj)
@@ -183,3 +183,70 @@ repr(obj)
 
 ## Použití `__slots__`
 
+
+
+## Python Style Guide
+
+Metodám/Funkcím, které odpovídají na otázku Ano/Ne True/False říkáme predikáty.
+Pojmenováváme je např. s prefixem `is_`, `has_`, `can_`. V případě funkcí zřejmě musejí
+přebírat jeden nebo více argumentů. Pokud je predikát metoda, nemusí přebírat argument, protože může pracovat s proměnnou třídy nebo instance.
+
+př. funkce
+
+    is_male(person) -> bool
+
+př. metody
+
+    Person.is_male()
+
+**Kdy má/může být metoda property?**
+
+- Pokud potřebujeme jen vracet hodnotu a neměnit stav třídy, pak volíme `property.getter`.
+
+    dog.name
+
+- Pokud potřebujeme též měnit stav třídy a stačí nám k tomu jedinná hodnota, oak přidáme `property.setter`
+
+    dog.name = "Daisy"
+
+  Poznámka: Obecně se snažíme po vutvoření neměnit stav objektu a dělám je tzv. *immutable*.
+
+ Pokud je to nějaká akce, která může měnit vnitřní stav tak preferujeme sémantiku volání funkce.
+
+    person.set_addres
+
+ Kdyz k tomu budes omylem pristupovat jako k properte misto metody, tak se to tise evalne na `True` a nevsimnes si toho
+
+    class C:
+        def get(self):
+            return False
+
+    c = C()
+
+    if c.get():
+        print("ERROR")
+
+    if c.get:
+        print("ERROR")
+
+
+https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-1.1/bzwdh01d(v=vs.71)#cpconpropertyusageguidelinesanchor1
+https://stackoverflow.com/questions/1374273/when-to-use-properties-instead-of-functions
+https://martinfowler.com/bliki/CommandQuerySeparation.html
+
+
+
+## Návrh knihovny
+
+
+Pokud nechceš, aby tvou třídu někdo rozšiřoval, neexportuj jí z modulu a namísto `__init__` vytvoř funcki stejného jména jako třída.
+
+
+```python
+class _Point2:
+    def __init__(self, x, y):
+        self.coords = (x, y)
+
+def point2():
+    return _Point2(x, y)
+```
