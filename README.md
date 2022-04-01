@@ -5,3 +5,15 @@ __Programming in Python from zero to hero.__
 The introductory course, examples, and exercises in Python programming language. Originally written for personal needs  but may be useful for other people.
 
 The course overview is located [here](source/01%20Overview.md).
+
+## Install
+
+- Clone the repository.
+- Move to the folder.
+- Create a virtual environment.
+- Install dependencies.
+- Run the examples.
+
+## Contributing
+
+&hellip;
