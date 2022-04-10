@@ -9,11 +9,20 @@ The course overview is located [here](source/01%20Overview.md).
 ## Install
 
 - Clone the repository.
+  ```  
+  git clone https://github.com/groundf/course-python.git
+  ```
 - Move to the folder.
-- Create a virtual environment.
+  ```
+  cd course-python
+  ```
+- Create a virtual environment, see &hellip;
 - Install dependencies.
+  ```
+  pip install -e .
+  ```
 - Run the examples.
 
-## Contributing
+## Contribute
 
 &hellip;
