@@ -1,9 +1,19 @@
-## Replace multiple white-space in a string by one.**
+## Replace multiple white-space in a string by one.
 
-```python
-' '.join(mystring.split())
+### Problem
+
+```
+text = "My name is David".
 ```
 
+### Solution
+
 ```python
-re.sub( '\s+', ' ', mystring ).strip()
+' '.join(text.split())
+```
+
+or
+
+```python
+re.sub( '\s+', ' ', text).strip()
 ```
