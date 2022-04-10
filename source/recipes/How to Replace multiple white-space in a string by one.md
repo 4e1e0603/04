@@ -1,9 +1,11 @@
-## Replace multiple white-space in a string by one.
+## Replace multiple spaces in a string by a one space.
 
 ### Problem
 
+The given string contains multiple spaces which should be replaces by exactly one space.
+
 ```
-text = "My name is David".
+text = "My  name  is  David".
 ```
 
 ### Solution
