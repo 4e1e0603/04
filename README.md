@@ -18,12 +18,8 @@ See the [document](groundf/course-python/source/02%20Prerequisites.md).
   ```
   cd course-python
   ```
-- Create a virtual environment, see &hellip;
-- Install dependencies.
-  ```
-  pip install -e .
-  ```
-- Run the examples.
+
+And read the course content. 
 
 ## Contribute
 
