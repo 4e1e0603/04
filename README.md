@@ -6,7 +6,7 @@ _The introductory course, examples, and exercises in Python programming language
 
 ## Prerequisites
 
-See the [document](groundf/course-python/source/02 Prerequisites.md).
+See the [document](groundf/course-python/source/02%20Prerequisites.md).
     
 ## Install
 
