@@ -1,6 +1,5 @@
 # Examples in Python
 
-![Python](https://img.shields.io/badge/Language-Python-blue.svg)
 
 
 Examples how to emulate the functional paradigm in Python.
