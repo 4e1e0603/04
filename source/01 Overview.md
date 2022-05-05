@@ -22,6 +22,40 @@ Choode your path:
 - Installation of Git and basic commands.
 - Your first Python program ("hello world").
 
+## Basics
+
+- package, module and import
+- constant and variable: name, type, value (binding)
+- named function, anonymous function aka Lambda, scope and closure
+- built-in functions: an overview
+- decorator
+
+- conditions: `if`, `elif`, `else`
+- iterations: `while`, `for`
+
+
+## Class and Object
+
+- custom types via `class` definition
+- regular class vs data class `@dataclass(...)` decorato
+- abstratc class and protocol class
+- property, instance method, class method, static method
+- speacial (magic) methods `__method__`
+- mutable vs immutable
+- refence (`id(obj)`) vs attribute equality, overloading `__eq__`, `__hash__` and so on
+- `Enum` class
+
+## Collections
+
+- `Mutable` vs `Immutable`
+- `List` and `Tuple`
+- `Dict`, `DefaultDict`
+- ...
+- Comprehension: list, dict
+- iterator, generator aka lazy evaluation, continuation
+
+
+
 ## Data types and data structures
 
 - Number (int, float, decimal, fraction)
@@ -37,9 +71,22 @@ Choode your path:
 
 ## Type annotations
 
+Type annotations also called *type hints* are usually not a mandatory in dynamically typed languages such as Pytho, Ruby etc., but in many cases, they can help you to better understand of source code. Althought we can easily anotate tho code such as this without any problems
+
 - Dynamic vs static typing
 - Type hints and static analysis
 - MyPy and Pylance and
+
+```python
+def plus(a: int, b: int) -> int:
+    return a + b
+```
+
+, for an advanced type annotations we have to import a typing module which contains many usefull classes and functions or decorators.
+
+```python
+import typing
+```
 
 ## Code formatting
 
@@ -150,9 +197,90 @@ over
 
     start_of_week: date
 
+
+## Typed and Functional features
+
+- Higher-order functions
+- Referential transparency and pure functions
+- Function composition (nesting)
+- map, filter enumerate, zip
+- itertools, functools
+- Currying and partial application
+- Typing module in depth
+
+## Standard Library
+
+An overview of some useful standard library modules.
+
 ## Resources
 
 - https://github.com/groundf/python-cheatsheet
 - https://pythontic.com/
 - https://medium.com/@jorlugaqui/how-to-get-the-latest-earliest-moment-from-a-day-in-python-aa8999bea945
 - https://stackoverflow.com/questions/36731949/2359-vs-0000-as-start-end-time
+
+- [More Monads in Python](https://medium.com/swlh/more-monads-in-python-178492f482f6)
+- [Haskell: The List Monad](https://www.schoolofhaskell.com/school/starting-with-haskell/basics-of-haskell/13-the-list-monad)
+- [Mimic the behavior of a class in Python with currying](https://towardsdatascience.com/classes-in-functional-programming-ee48a50b6235)
+
+## Přebrat
+
+Co Vás naučíme
+Účastníci kurzu se naučí základům jazyka Python, seznámí se s jeho syntaxí, naučí se používat moduly, přistupovat k souborům, zachytávat výjimky, používat objektově orientované techniky, vytvářet velké projekty a používat Python například při tvorbě WWW.
+Požadované vstupní znalosti
+Základní znalosti programování
+Metody výuky
+Odborný výklad s praktickými ukázkami, cvičení na počítačích.
+Studijní materiály
+Tištěné prezentace probírané látky
+Osnova kurzu
+Úvod
+
+základní vlastnosti Pythonu
+porovnání s ostatními jazyky (C, Pascal, Visual Basic, Perl, atd.)
+proč a k čemu lze používat Python
+Základy jazyka
+
+struktura kódu, komentáře
+proměnné a přiřazení, základní datové typy
+operátory, aritmetické výrazy a logické výrazy
+čísla a řetězce -- formátování, modul string
+základní datové struktuty: seznam, n-tice, slovník
+
++ Řízení běhu programu
+    + příkazy pro větvení
+    + příkazy pro opakování
+
++ Funkce a procedury
+    + definice funkcí, procedur a jejich použití
+    + platnost proměnných, předávání parametrů, atd.
+
++ Moduly
+    + seznámení s moduly
+    + standardní moduly Pythonu
+    + pravidla rozsahu, atd.
+
++ Práce se soubory
+
+    + základy práce se soubory
+    + otevírání souborů, čtení, zápis
+    + souborové objekty
+
++ Chyby a výjimky
+
+seznámení s výjimkami
+typy, vyvolání, zachycení a obsluha výjimek
+složitější použití výjimek
+Skripty
+
+vytvoření skriptu a jeho spuštění
+argumenty příkazového řádku
+přesměrování
+skripty v UNIXu a ve Windows
+Objektově orientované programování
+
+základy OOP
+třídy, vlastnosti a metody
+konstruktory a destruktory
+dědičnost a vícenásobná dědičnost
+další vlastnosti OOP v Pythonu

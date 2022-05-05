@@ -9,20 +9,26 @@ _The introductory course, examples, and exercises in Python programming language
 ## Prerequisites
 
 See the [document](groundf/course-python/source/02%20Prerequisites.md).
-    
-## Install
+
+## Installation
 
 - Clone the repository.
-  ```  
+  ```
   git clone https://github.com/groundf/course-python.git
   ```
 - Move to the folder.
   ```
   cd course-python
   ```
+- Install dependencies.
+  ```
+  py -m venv .venv
+  source\Scripts\activate
+  pip install .
+  ```
 
-And read the course content. 
+And read the course content.
 
-## Contribute
+## Contribution
 
 &hellip;
