@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Overview &mdash; cs1p  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Welcome to cs1p’s documentation!" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> cs1p
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Beginner:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#stage-1">Stage 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#stage-2">Stage 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#stage-3">Stage 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setup">Setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#basics">Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#class-and-object">Class and Object</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#collections">Collections</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data-types-and-data-structures">Data types and data structures</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#containters">Containters</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#type-annotations">Type annotations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#code-formatting">Code formatting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#functions">Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modules-packages">Modules &amp; Packages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#decorators">Decorators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#classes-methods">Classes &amp; Methods</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#methods">Methods</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#properties">Properties</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#exceptions">Exceptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#file-io">File IO</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#context-manager">Context manager</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#calendar-date-and-time">Calendar, Date and Time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pattern-matching">Pattern Matching</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#iterators-and-generators">Iterators and Generators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#jupyter-and-notebooks">Jupyter and Notebooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#async-await">Async/Await</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#metaprogramming">Metaprogramming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#testing">Testing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#style-guide">Style guide</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#typed-and-functional-features">Typed and Functional features</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#standard-library">Standard Library</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#resources">Resources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#prebrat">Přebrat</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">cs1p</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Overview</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/01/1.0-overview.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="overview">
+<h1>Overview<a class="headerlink" href="#overview" title="Permalink to this heading"></a></h1>
+<section id="stage-1">
+<h2>Stage 1<a class="headerlink" href="#stage-1" title="Permalink to this heading"></a></h2>
+<p>In the <em>Stage 1</em> you will not only learn the basics of Python programming language, but also how to setup your development environment, how to use the command line interface and how to use another services as <code class="docutils literal notranslate"><span class="pre">GitHub</span></code> together with <em>Git</em> tool. Your knowledge after this stage will be shallow but you will be able to solve some basic and practical problems.</p>
+</section>
+<section id="stage-2">
+<h2>Stage 2<a class="headerlink" href="#stage-2" title="Permalink to this heading"></a></h2>
+<p>In the <em>Stage 2</em> you will learn how to solve general and practical problems with Python.</p>
+</section>
+<section id="stage-3">
+<h2>Stage 3<a class="headerlink" href="#stage-3" title="Permalink to this heading"></a></h2>
+<p>Choode your path:</p>
+<ol class="arabic simple">
+<li><p>Python for data analysis.</p></li>
+<li><p>Python for automated testing.</p></li>
+<li><p>Python for scientific programming.</p></li>
+</ol>
+</section>
+<section id="setup">
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Installation and usage of command line interface.</p></li>
+<li><p>Installation of Python (v3) interpeter.</p></li>
+<li><p>Overview of GitHub service and creation of an account (GitHub Web and CLI).</p></li>
+<li><p>Installation of Git and basic commands.</p></li>
+<li><p>Your first Python program (“hello world”).</p></li>
+</ul>
+</section>
+<section id="basics">
+<h2>Basics<a class="headerlink" href="#basics" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>package, module and import</p></li>
+<li><p>constant and variable: name, type, value (binding)</p></li>
+<li><p>named function, anonymous function aka Lambda, scope and closure</p></li>
+<li><p>built-in functions: an overview</p></li>
+<li><p>decorator</p></li>
+<li><p>conditions: <code class="docutils literal notranslate"><span class="pre">if</span></code>, <code class="docutils literal notranslate"><span class="pre">elif</span></code>, <code class="docutils literal notranslate"><span class="pre">else</span></code></p></li>
+<li><p>iterations: <code class="docutils literal notranslate"><span class="pre">while</span></code>, <code class="docutils literal notranslate"><span class="pre">for</span></code></p></li>
+</ul>
+</section>
+<section id="class-and-object">
+<h2>Class and Object<a class="headerlink" href="#class-and-object" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>custom types via <code class="docutils literal notranslate"><span class="pre">class</span></code> definition</p></li>
+<li><p>regular class vs data class <code class="docutils literal notranslate"><span class="pre">&#64;dataclass(...)</span></code> decorato</p></li>
+<li><p>abstratc class and protocol class</p></li>
+<li><p>property, instance method, class method, static method</p></li>
+<li><p>speacial (magic) methods <code class="docutils literal notranslate"><span class="pre">__method__</span></code></p></li>
+<li><p>mutable vs immutable</p></li>
+<li><p>refence (<code class="docutils literal notranslate"><span class="pre">id(obj)</span></code>) vs attribute equality, overloading <code class="docutils literal notranslate"><span class="pre">__eq__</span></code>, <code class="docutils literal notranslate"><span class="pre">__hash__</span></code> and so on</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Enum</span></code> class</p></li>
+</ul>
+</section>
+<section id="collections">
+<h2>Collections<a class="headerlink" href="#collections" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">Mutable</span></code> vs <code class="docutils literal notranslate"><span class="pre">Immutable</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">List</span></code> and <code class="docutils literal notranslate"><span class="pre">Tuple</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">Dict</span></code>, <code class="docutils literal notranslate"><span class="pre">DefaultDict</span></code></p></li>
+<li><p>…</p></li>
+<li><p>Comprehension: list, dict</p></li>
+<li><p>iterator, generator aka lazy evaluation, continuation</p></li>
+</ul>
+</section>
+<section id="data-types-and-data-structures">
+<h2>Data types and data structures<a class="headerlink" href="#data-types-and-data-structures" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Number (int, float, decimal, fraction)</p></li>
+<li><p>String</p></li>
+</ul>
+<section id="containters">
+<h3>Containters<a class="headerlink" href="#containters" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Sequence: List, Tuple, Set</p></li>
+<li><p>Mapping: Dictionary</p></li>
+<li><p>Array, Matrix</p></li>
+<li><p>Comprehension (list, dict) and slicing</p></li>
+<li><p>sorting: https://docs.python.org/3/howto/sorting.html</p></li>
+</ul>
+</section>
+</section>
+<section id="type-annotations">
+<h2>Type annotations<a class="headerlink" href="#type-annotations" title="Permalink to this heading"></a></h2>
+<p>Type annotations also called <em>type hints</em> are usually not a mandatory in dynamically typed languages such as Pytho, Ruby etc., but in many cases, they can help you to better understand of source code. Althought we can easily anotate tho code such as this without any problems</p>
+<ul class="simple">
+<li><p>Dynamic vs static typing</p></li>
+<li><p>Type hints and static analysis</p></li>
+<li><p>MyPy and Pylance and</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">plus</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+</pre></div>
+</div>
+<p>, for an advanced type annotations we have to import a typing module which contains many usefull classes and functions or decorators.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">typing</span>
+</pre></div>
+</div>
+</section>
+<section id="code-formatting">
+<h2>Code formatting<a class="headerlink" href="#code-formatting" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Indentation</p></li>
+<li><p>Using <code class="docutils literal notranslate"><span class="pre">black</span></code>!</p></li>
+</ul>
+</section>
+<section id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>What is a function (builtin vs custom).</p></li>
+<li><p>What if function doesn’t return value?</p></li>
+<li><p>Funtion without arguments</p></li>
+<li><p>Function with one argument</p></li>
+<li><p>Function with one argument and default value</p></li>
+<li><p>Funtionn with multiple arguments</p></li>
+<li><p>Using named and default arguments (How to define default empty list!)</p></li>
+<li><p>Using <code class="docutils literal notranslate"><span class="pre">*args</span></code>and <code class="docutils literal notranslate"><span class="pre">*kwargs*</span></code></p></li>
+<li><p>How to write proper function comment.</p></li>
+<li><p>closure, variable scope</p></li>
+<li><p>higher order functions and functional programming</p></li>
+</ul>
+</section>
+<section id="modules-packages">
+<h2>Modules &amp; Packages<a class="headerlink" href="#modules-packages" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>module definition</p></li>
+<li><p>module import and export</p></li>
+<li><p>package definition</p></li>
+</ul>
+</section>
+<section id="decorators">
+<h2>Decorators<a class="headerlink" href="#decorators" title="Permalink to this heading"></a></h2>
+</section>
+<section id="classes-methods">
+<h2>Classes &amp; Methods<a class="headerlink" href="#classes-methods" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>abstract classes &amp; inheritance</p></li>
+<li><p>single vs multiple inheritance</p></li>
+<li><p>special (magic) methods and operators</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">__init__</span></code>, <code class="docutils literal notranslate"><span class="pre">__new__</span></code>, <code class="docutils literal notranslate"><span class="pre">__dict__</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">[]</span></code>, ``</p></li>
+</ul>
+</li>
+<li><p>properties, abstract, static and class methods</p></li>
+<li><p>dataclasses https://docs.python.org/3/library/dataclasses.html; https://realpython.com/python-data-classes/</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">__slots__</span></code></p></li>
+<li><p>protocols, nominal vs structurel subtyping</p></li>
+</ul>
+<section id="methods">
+<h3>Methods<a class="headerlink" href="#methods" title="Permalink to this heading"></a></h3>
+</section>
+<section id="properties">
+<h3>Properties<a class="headerlink" href="#properties" title="Permalink to this heading"></a></h3>
+</section>
+</section>
+<section id="exceptions">
+<h2>Exceptions<a class="headerlink" href="#exceptions" title="Permalink to this heading"></a></h2>
+<p>Error handling and exceptions.</p>
+</section>
+<section id="file-io">
+<h2>File IO<a class="headerlink" href="#file-io" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>How to read and write to/from file, synchronous (blocking) API.</p></li>
+<li><p>Using <code class="docutils literal notranslate"><span class="pre">pathlib</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">with</span></code> statement; using cotext manager (<code class="docutils literal notranslate"><span class="pre">with</span> <span class="pre">open(...)</span> <span class="pre">as</span> <span class="pre">_</span></code>)</p></li>
+</ul>
+</section>
+<section id="context-manager">
+<h2>Context manager<a class="headerlink" href="#context-manager" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Writing <code class="docutils literal notranslate"><span class="pre">__enter__</span></code>,<code class="docutils literal notranslate"> <span class="pre">__exit__</span></code> for your class.</p></li>
+<li><p>https://peps.python.org/pep-0343/</p></li>
+</ul>
+</section>
+<section id="calendar-date-and-time">
+<h2>Calendar, Date and Time<a class="headerlink" href="#calendar-date-and-time" title="Permalink to this heading"></a></h2>
+<p>How to work with date and time.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">date</span></code> module</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">date</span></code>, <code class="docutils literal notranslate"><span class="pre">time</span></code>, <code class="docutils literal notranslate"><span class="pre">datetime</span></code>, <code class="docutils literal notranslate"><span class="pre">timedelta</span></code> classes</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">time.min</span></code>, <code class="docutils literal notranslate"><span class="pre">time.max</span></code> properties</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">datetime.combine(datetime.now(),</span> <span class="pre">time.min)</span></code></p></li>
+</ul>
+</section>
+<section id="pattern-matching">
+<h2>Pattern Matching<a class="headerlink" href="#pattern-matching" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>https://peps.python.org/pep-0636/</p></li>
+</ul>
+</section>
+<section id="iterators-and-generators">
+<h2>Iterators and Generators<a class="headerlink" href="#iterators-and-generators" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">__iter__</span></code>, <code class="docutils literal notranslate"><span class="pre">__next__</span></code>, <code class="docutils literal notranslate"><span class="pre">yield</span></code>, <code class="docutils literal notranslate"><span class="pre">yield</span> <span class="pre">from</span></code></p></li>
+</ul>
+</section>
+<section id="jupyter-and-notebooks">
+<h2>Jupyter and Notebooks<a class="headerlink" href="#jupyter-and-notebooks" title="Permalink to this heading"></a></h2>
+<p>How to work with interactive notebooks.</p>
+<ul class="simple">
+<li><p>Using Jupyter and JupyterLab web interface.</p></li>
+<li><p>Using Visual Studio Code Editor interface.</p></li>
+<li><p>Convert script to netobook and vice versa.</p></li>
+<li><p>Manage code and notes in notebook and best practices.</p></li>
+</ul>
+</section>
+<section id="async-await">
+<h2>Async/Await<a class="headerlink" href="#async-await" title="Permalink to this heading"></a></h2>
+<p>Asynchronous (non-blocking) programming.</p>
+</section>
+<section id="metaprogramming">
+<h2>Metaprogramming<a class="headerlink" href="#metaprogramming" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Reflection</p></li>
+</ul>
+</section>
+<section id="testing">
+<h2>Testing<a class="headerlink" href="#testing" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Unit tests with <code class="docutils literal notranslate"><span class="pre">pytest</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">assert</span></code>, <code class="docutils literal notranslate"><span class="pre">fixture</span></code>, <code class="docutils literal notranslate"><span class="pre">test-case</span></code></p></li>
+<li><p>https://docs.pytest.org/en/6.2.x/fixture.html</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pytest.mark</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pytest.parametrize</span></code></p></li>
+</ul>
+</section>
+<section id="style-guide">
+<h2>Style guide<a class="headerlink" href="#style-guide" title="Permalink to this heading"></a></h2>
+<p>prefer</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>week_start: date
+</pre></div>
+</div>
+<p>over</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>start_of_week: date
+</pre></div>
+</div>
+</section>
+<section id="typed-and-functional-features">
+<h2>Typed and Functional features<a class="headerlink" href="#typed-and-functional-features" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Higher-order functions</p></li>
+<li><p>Referential transparency and pure functions</p></li>
+<li><p>Function composition (nesting)</p></li>
+<li><p>map, filter enumerate, zip</p></li>
+<li><p>itertools, functools</p></li>
+<li><p>Currying and partial application</p></li>
+<li><p>Typing module in depth</p></li>
+</ul>
+</section>
+<section id="standard-library">
+<h2>Standard Library<a class="headerlink" href="#standard-library" title="Permalink to this heading"></a></h2>
+<p>An overview of some useful standard library modules.</p>
+</section>
+<section id="resources">
+<h2>Resources<a class="headerlink" href="#resources" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>https://github.com/groundf/python-cheatsheet</p></li>
+<li><p>https://pythontic.com/</p></li>
+<li><p>https://medium.com/&#64;jorlugaqui/how-to-get-the-latest-earliest-moment-from-a-day-in-python-aa8999bea945</p></li>
+<li><p>https://stackoverflow.com/questions/36731949/2359-vs-0000-as-start-end-time</p></li>
+<li><p><a class="reference external" href="https://medium.com/swlh/more-monads-in-python-178492f482f6">More Monads in Python</a></p></li>
+<li><p><a class="reference external" href="https://www.schoolofhaskell.com/school/starting-with-haskell/basics-of-haskell/13-the-list-monad">Haskell: The List Monad</a></p></li>
+<li><p><a class="reference external" href="https://towardsdatascience.com/classes-in-functional-programming-ee48a50b6235">Mimic the behavior of a class in Python with currying</a></p></li>
+</ul>
+</section>
+<section id="prebrat">
+<h2>Přebrat<a class="headerlink" href="#prebrat" title="Permalink to this heading"></a></h2>
+<p>Co Vás naučíme
+Účastníci kurzu se naučí základům jazyka Python, seznámí se s jeho syntaxí, naučí se používat moduly, přistupovat k souborům, zachytávat výjimky, používat objektově orientované techniky, vytvářet velké projekty a používat Python například při tvorbě WWW.
+Požadované vstupní znalosti
+Základní znalosti programování
+Metody výuky
+Odborný výklad s praktickými ukázkami, cvičení na počítačích.
+Studijní materiály
+Tištěné prezentace probírané látky
+Osnova kurzu
+Úvod</p>
+<p>základní vlastnosti Pythonu
+porovnání s ostatními jazyky (C, Pascal, Visual Basic, Perl, atd.)
+proč a k čemu lze používat Python
+Základy jazyka</p>
+<p>struktura kódu, komentáře
+proměnné a přiřazení, základní datové typy
+operátory, aritmetické výrazy a logické výrazy
+čísla a řetězce – formátování, modul string
+základní datové struktuty: seznam, n-tice, slovník</p>
+<ul class="simple">
+<li><p>Řízení běhu programu</p>
+<ul>
+<li><p>příkazy pro větvení</p></li>
+<li><p>příkazy pro opakování</p></li>
+</ul>
+</li>
+<li><p>Funkce a procedury</p>
+<ul>
+<li><p>definice funkcí, procedur a jejich použití</p></li>
+<li><p>platnost proměnných, předávání parametrů, atd.</p></li>
+</ul>
+</li>
+<li><p>Moduly</p>
+<ul>
+<li><p>seznámení s moduly</p></li>
+<li><p>standardní moduly Pythonu</p></li>
+<li><p>pravidla rozsahu, atd.</p></li>
+</ul>
+</li>
+<li><p>Práce se soubory</p>
+<ul>
+<li><p>základy práce se soubory</p></li>
+<li><p>otevírání souborů, čtení, zápis</p></li>
+<li><p>souborové objekty</p></li>
+</ul>
+</li>
+<li><p>Chyby a výjimky</p></li>
+</ul>
+<p>seznámení s výjimkami
+typy, vyvolání, zachycení a obsluha výjimek
+složitější použití výjimek
+Skripty</p>
+<p>vytvoření skriptu a jeho spuštění
+argumenty příkazového řádku
+přesměrování
+skripty v UNIXu a ve Windows
+Objektově orientované programování</p>
+<p>základy OOP
+třídy, vlastnosti a metody
+konstruktory a destruktory
+dědičnost a vícenásobná dědičnost
+další vlastnosti OOP v Pythonu</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../index.html" class="btn btn-neutral float-left" title="Welcome to cs1p’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, DL.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

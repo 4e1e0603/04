@@ -1,6 +1,7 @@
 sphinx
 sphinx-rtd-theme
 myst-parser
+myst-nb
 mypy
 pytest
 ipykernel

@@ -1,6 +1,4 @@
-========================
-Asynchronous Programming
-========================
+# Asynchronous Programming
 
 Zde budou poznámky o asynchronním (neblokujícím) programování.
 
