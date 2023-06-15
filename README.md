@@ -13,15 +13,20 @@ See the [document](groundf/course-python/notes/02%20Prerequisites.md).
 ## Installation
 
 - Clone the repository.
-  ```
+
+  ```shell
   git clone https://github.com/groundf/cs1p.git
   ```
+
 - Move to the folder.
-  ```
+
+  ```shell
   cd cs1p
   ```
+
 - Install dependencies.
-  ```
+
+  ```powershell
   py -m venv .venv
   .\.venv\source\Scripts\activate
   pip install .
@@ -40,9 +45,9 @@ And read the course content.
 
 ## References
 
-- https://www.sphinx-doc.org/
-- https://myst-parser.readthedocs.io/
-- https://myst-nb.readthedocs.io/
-- https://github.com/sphinx-extensions2/sphinx-autodoc2/
-- https://sphinx-extensions.readthedocs.io/
-- https://pypi.org/project/sphinx-autobuild/
+- <https://www.sphinx-doc.org/>
+- <https://myst-parser.readthedocs.io/>
+- <https://myst-nb.readthedocs.io/>
+- <https://github.com/sphinx-extensions2/sphinx-autodoc2/>
+- <https://sphinx-extensions.readthedocs.io/>
+- <https://pypi.org/project/sphinx-autobuild/>

@@ -1,7 +1,9 @@
 sphinx
 sphinx-rtd-theme
+sphinx-autobuild
 myst-parser
 myst-nb
 mypy
 pytest
 ipykernel
+jupyter
