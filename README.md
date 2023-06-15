@@ -4,7 +4,9 @@
 
 ![language-Python](https://img.shields.io/badge/language-Python-blue.svg)
 
-The introductory course, examples, and exercises in Python programming language. Originally written for personal needs but may be useful for other people. Python is easy to learn but not as easy as many people think and definitely not easy to master. This course will help you to learn Python in depth.
+The examples, and exercises in Python programming language [^1]. 
+
+[^1]: Originally written for personal needs but may be useful for other people. Python is easy to learn but not as easy as many people think and definitely not easy to master. 
 
 ## Prerequisites
 
