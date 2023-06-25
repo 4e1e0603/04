@@ -1,4 +1,4 @@
-# cs16
+# c16
 
 **Programming in Python from beginner to advanced level.**
 
